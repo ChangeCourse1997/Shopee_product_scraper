@@ -1,13 +1,15 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 import pandas as pd
 import numpy as np
 import requests
 def shopee(item:str,by:str):
+    """This Function takes in the item to search for and the method to sort the output, 
+    this will return an excel file of 100 sorted products from shopee.
+
+    Args:
+        item (str): The item name like 'table light'
+        by (str): method to sort, includes 'Sold','Total Sold','Price','Rating','Number 5 Star Ratings','Total Number of Ratings'
+    """
+    
     if by not in ['Sold','Total Sold','Price','Rating','Number 5 Star Ratings','Total Number of Ratings']:
         print('Please spell correctly as either Sold, Total Sold, Price,Rating, Number 5 Star Ratings, Total Number of Ratings')
         return
