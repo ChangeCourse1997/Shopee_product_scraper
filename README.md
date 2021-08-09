@@ -19,15 +19,27 @@ by is the method to sort the output file. Can be any of the following: 'Sold','T
 
 ### Output
 The output consists of an excel file with the following columns.
+
 Name: Name of the listing 
+
 Sold: Number sold a month
+
 Total Sold: Total number of item sold
+
 Price: The Price of the product 
+
 Price_max: The maximum price of a variation of the product
+
 Rating: The rating number from 0-1
+
 Number 5 Star Ratings: Number of 5 star ratings
+
 Number 4 Star Ratings: Number of 4 star ratings
+
 Total Number of Ratings: Total number of ratings of the product
+
 Official Shop: Whether the product is from an official shop
+
 Brand: The Brand of the product listed
+
 Link: The link to the product 
