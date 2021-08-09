@@ -3,8 +3,11 @@ This is a simple script to obtain product infromation from Shopee using Shopee's
 
 ### Usage
 Download main.py file and place into a directory. Start a Terminal in the same directory or start an editor.
+
 Example code:
+
 from main import shopee
+
 shopee('playstation controller' , 'Sold')
 
 ### Parameters
